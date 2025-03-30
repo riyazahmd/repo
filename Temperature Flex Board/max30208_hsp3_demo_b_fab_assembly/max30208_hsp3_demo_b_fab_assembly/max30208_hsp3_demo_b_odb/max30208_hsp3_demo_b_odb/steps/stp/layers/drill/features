@@ -1,0 +1,32 @@
+UNITS=INCH
+ID=232
+#
+#Num Features
+#
+F 6
+
+#
+#Feature symbol names
+#
+$0 r5
+
+#
+#Feature attribute names
+#
+@0 .geometry
+@1 .drill
+
+#
+#Feature attribute text strings
+#
+&0 V10H5
+
+#
+#Layer features
+#
+P 0.93 0.01 0 P 1 8 0;0=0,1=2;ID=240
+P 0.93 0.105 0 P 1 8 0;0=0,1=2;ID=252
+P 1.0231 0.0582 0 P 1 8 0;0=0,1=2;ID=259
+P 0.92905 0.05595 0 P 1 8 0;0=0,1=2;ID=266
+P 0.9303 0.035 0 P 1 8 0;0=0,1=2;ID=273
+P 0.92908002 0.08221998 0 P 1 8 0;0=0,1=2;ID=280

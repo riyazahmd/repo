@@ -1,0 +1,35 @@
+H optimize N staggered N
+UNITS=INCH
+$0 UNNAMED_1_CAPNP_I3_1
+$1 GND_SIGNAL
+$2 UNNAMED_1_EKMAX30208_I4_8
+$3 UNNAMED_1_EKMAX30208_I4_7
+$4 UNNAMED_1_EKMAX30208_I4_10
+$5 UNNAMED_1_EKMAX30208_I4_9
+#
+#Netlist points
+#
+0 0 0.04002 0.09797 T 0.07874 0.01063 e e staggered 0 0 0 
+0 0 1.0441 0.07228 D 0.01575 0.01772 e e staggered 0 0 0 
+0 0 0.95461 0.08182 D 0.01772 0.02165 e e staggered 0 0 0 
+0 0 0.9802 0.08182 D 0.01772 0.02165 e e staggered 0 0 0 
+0 0 1.00579 0.08182 D 0.01772 0.02165 e e staggered 0 0 0 
+0 0.0025 0.93 0.105 B m e staggered 0 0 0 v 
+1 0 0.04002 0.01923 T 0.07874 0.01063 e e staggered 0 0 0 
+1 0 1.0441 0.04472 D 0.01575 0.01772 e e staggered 0 0 0 
+1 0 1.00579 0.03458 D 0.01772 0.02165 e e staggered 0 0 0 
+1 0 0.9802 0.03458 D 0.01772 0.02165 e e staggered 0 0 0 
+1 0 0.95461 0.03458 D 0.01772 0.02165 e e staggered 0 0 0 
+1 0.0025 0.93 0.01 B m e staggered 0 0 0 v 
+2 0 0.04002 0.03498 T 0.07874 0.01063 e e staggered 0 0 0 
+2 0 0.97036 0.0582 D 0.01181 0.00984 e e staggered 0 0 0 
+2 0.0025 0.9303 0.035 B m e staggered 0 0 0 v 
+3 0 0.04002 0.05073 T 0.07874 0.01063 e e staggered 0 0 0 
+3 0 0.95067 0.0582 D 0.01181 0.00984 e e staggered 0 0 0 
+3 0.0025 0.92905 0.05595 B m e staggered 0 0 0 v 
+4 0 0.04002 0.06647 T 0.07874 0.01063 e e staggered 0 0 0 
+4 0 1.00973 0.0582 D 0.01181 0.00984 e e staggered 0 0 0 
+4 0.0025 1.0231 0.0582 B m e staggered 0 0 0 v 
+5 0 0.04002 0.08222 T 0.07874 0.01063 e e staggered 0 0 0 
+5 0 0.99004 0.0582 D 0.01181 0.00984 e e staggered 0 0 0 
+5 0.0025 0.92908 0.08222 B m e staggered 0 0 0 v 

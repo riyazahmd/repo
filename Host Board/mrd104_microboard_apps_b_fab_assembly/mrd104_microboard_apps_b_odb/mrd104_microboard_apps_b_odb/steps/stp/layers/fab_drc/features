@@ -1,0 +1,49 @@
+UNITS=INCH
+ID=213
+#
+#Num Features
+#
+F 3
+
+#
+#Feature attribute names
+#
+@0 .drc_etch_lyrs_all
+@1 .area_name
+@2 .drc_etch_lyrs
+
+#
+#Feature attribute text strings
+#
+&0 BGA
+&1 BGA_065MM
+&2 top;smt;sst
+&3 BGA1_3MIL
+
+#
+#Layer features
+#
+S P 0;0,1=0;ID=107526
+OB 0.527 0.701 I
+OS 0.778 0.701
+OS 0.778 0.453
+OS 0.527 0.453
+OS 0.527 0.701
+OE
+SE
+S P 0;0,1=1;ID=107527
+OB 0.58475 0.446 I
+OS 0.958 0.446
+OS 0.958 0.071
+OS 0.58475 0.071
+OS 0.58475 0.446
+OE
+SE
+S P 0;1=3,2=2;ID=107528
+OB 0.2205 0.43 I
+OS 0.3205 0.43
+OS 0.3205 0.336
+OS 0.2205 0.336
+OS 0.2205 0.43
+OE
+SE

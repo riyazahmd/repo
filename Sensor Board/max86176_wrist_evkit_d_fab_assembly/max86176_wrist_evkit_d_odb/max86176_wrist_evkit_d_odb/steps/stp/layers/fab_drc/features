@@ -1,0 +1,29 @@
+UNITS=INCH
+ID=173
+#
+#Num Features
+#
+F 1
+
+#
+#Feature attribute names
+#
+@0 .drc_etch_lyrs_all
+@1 .area_name
+
+#
+#Feature attribute text strings
+#
+&0 WLP
+
+#
+#Layer features
+#
+S P 0;0,1=0;ID=88583
+OB 0.067469980315 0.0605 I
+OS 0.198469980315 0.0605
+OS 0.198469980315 -0.071
+OS 0.067469980315 -0.071
+OS 0.067469980315 0.0605
+OE
+SE

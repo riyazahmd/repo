@@ -1,0 +1,29 @@
+ Maxim Integrated Products 
+ Maxim | Innovation Delivered | www.maximintegrated.com
+ ---------------------------------------------------------------------------------------
+ Confidential Note:  THE INFORMATION CONTAINED IN THIS DOCUMENT IS PROPRIETARY TO MAXIM.
+ THE INFORMATION IN THIS DOCUMENT IS NOT TO BE SHOWN/REPRODUCED OR 
+ DISCLOSED TO ANYONE OUTSIDE OF MAXIM WITHOUT PRIOR WRITTEN PERMISSION FROM MAXIM.
+ ***************************************************************************************
+ Design Name	:	"max86176_wrist_evkit_d"
+ Date		:	"11/4/2020"
+ Layout Designer	:	"ROLAND MISLANG"
+ Program version	:	014
+ ***************************************************************************************
+ NOTE:If "$NONE" present in NET_NAME; then the short at this location is intentional(Dummy pin in intentional short symbol).
+ CAM_NET_SHORT_COUNT column indicates the CAM tool shorting count (for reference only).
+ The * on the CAM_NET_SHORT_COUNT value indicates the net is shorted in two or more REFDES locations.
+
+NOTE:Below Shorts are done physically using dedicated short symbols.
+
+NET_NAME,REFDES,SYM_NAME,PIN_NO,X,Y,CAM_NET_SHORT_COUNT
+"PGND","R38","RESC0603X23L_SHORT","1",-88.58,191.38,"1*",
+"AGND","R38","RESC0603X23L_SHORT","2",-88.58,215.0,"1*",
+"AGND","R37","RESC0603X23L_SHORT","1",-111.48,214.92,"1*",
+"PD_GND","R37","RESC0603X23L_SHORT","2",-111.48,191.3,"1*",
+
+
+Total Intentional Short locations reported:2
+Total CAM net Short count reported:1
+
+END OF FILE
